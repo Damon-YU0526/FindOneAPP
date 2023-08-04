@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FindOne</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >6 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_find">Find</string>
+    <string name="title_center">Center</string>
+    <string name="head_image">head image</string>
+    <string name="something">something</string>
+    <string name="edit">edit</string>
+    <string name="info">info</string>
+    <string name="name">name</string>
+    <string name="input_your_age">input your age:</string>
+    <string name="description">description</string>
+    <string name="please_input_your_description">please input your description</string>
+    <string name="save">save</string>
+</resources>

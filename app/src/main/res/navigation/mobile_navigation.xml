@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_chat">
+
+    <fragment
+        android:id="@+id/navigation_chat"
+        android:name="org.find.one.ui.chat.ChatFragment"
+        android:label="@string/title_chat"
+        tools:layout="@layout/fragment_chat" />
+
+    <fragment
+        android:id="@+id/navigation_find"
+        android:name="org.find.one.ui.find.FindFragment"
+        android:label="@string/title_find"
+        tools:layout="@layout/fragment_find" />
+
+    <fragment
+        android:id="@+id/navigation_center"
+        android:name="org.find.one.ui.center.CenterFragment"
+        android:label="@string/title_center"
+        tools:layout="@layout/fragment_center" />
+
+</navigation>
